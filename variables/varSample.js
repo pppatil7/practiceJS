@@ -1,0 +1,21 @@
+name = "Tony Stark";
+console.log(name);
+fullName = "John Cena";
+console.log(fullName);
+age = 21;
+console.log(age);
+x = null;
+console.log(x);
+y = undefined;
+console.log(y);
+radius = 10;
+price = 99.99;
+isSubscribed = true;
+console.log(isSubscribed);
+
+firstname = "tony";
+firstName = "john";
+console.log(firstname);
+console.log(firstName);
+_first_name1$="peter";
+console.log(_first_name1$);
