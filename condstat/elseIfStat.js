@@ -11,20 +11,16 @@ if (age < 18) {
 
 let marks = 90;
 let grade;
-if (marks >= 90) {
-    grade = "O";
-} else if (marks >= 80) {
-    grade = "A+";
-} else if (marks >= 70) {
+if (marks >= 90 && marks <= 100) {
     grade = "A";
-} else if (marks >= 60) {
-    grade = "B+";
-} else if (marks >= 50) {
+} else if (marks >= 70 && marks <= 89) {
     grade = "B";
-} else if (marks >= 40) {
-    grade = "P";
-} else {
-    grade = "F";
+} else if (marks >= 60 && marks <= 69) {
+    grade = "C";
+} else if (marks >= 50 && marks <= 59) {
+    grade = "D";
+} else if (marks >= 0 && marks <= 49) {
+    grade = "F"
 }
 
-console.log(grade);
+console.log("according to your marks, your grade is:", grade);
