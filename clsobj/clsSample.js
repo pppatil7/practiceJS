@@ -16,3 +16,4 @@ let fortuner = new ToyotaCar();
 fortuner.setBrand("fortuner");
 let lexus = new ToyotaCar();
 lexus.setBrand("lexus");
+
